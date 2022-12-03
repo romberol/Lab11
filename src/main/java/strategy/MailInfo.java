@@ -8,7 +8,8 @@ import lombok.Getter;
 public class MailInfo {
     private MailCode mailCode;
     private Client client;
-    public String generate(){
+
+    public String generate() {
         return mailCode.generate(client);
     }
 }
